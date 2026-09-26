@@ -31,7 +31,7 @@ primeira_vez = True
 while True:
     if not primeira_vez:
         print()
-        cont = input(str('voce deseja continuar com o programa? [s/n]')).upper()
+        cont = input(str('voce deseja continuar com o programa? [s/n] ')).upper()
         if cont == 'N':
             print()
             print('ATE O PROXIMO PRODUTO!')
@@ -49,7 +49,7 @@ while True:
     Deletar produto                    [4]
     Produtos com o estoque baixo       [5]
     Valor total em estoque             [6]
-    '''))
+    ''')
 
     opcao = input(str('qual opção você deseja escolher? '))
     print() 
